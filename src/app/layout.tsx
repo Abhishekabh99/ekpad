@@ -1,12 +1,9 @@
 import type { Metadata } from "next";
-import { Chakra_Petch, Inter } from "next/font/google";
 
 import "./globals.css";
 import { Navbar } from "@/components/Navbar";
 import { cn } from "@/lib/utils";
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-geist-sans" });
-const chakra = Chakra_Petch({ subsets: ["latin"], weight: ["400", "500", "600", "700"], variable: "--font-geist-mono" });
 
 export const metadata: Metadata = {
   title: "Ekpad — one pad for every gamer’s story.",

@@ -14,6 +14,7 @@ const config: Config = {
       }
     },
     extend: {
+      fontFamily: { sans: ["ui-sans-serif","system-ui","Segoe UI","Roboto","Inter","Arial","Noto Sans","Apple Color Emoji","Segoe UI Emoji"], },
       colors: {
         background: "#0b0f17",
         foreground: "#f8fafc",
