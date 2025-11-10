@@ -16,7 +16,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html
       lang="en"
       suppressHydrationWarning
-      className={cn("antialiased", inter.variable, chakra.variable)}
+      className={ "antialiased"}
     >
       <body className="relative min-h-screen bg-background text-foreground">
         <span className="pointer-events-none fixed inset-0 z-[-1] bg-gradient-radial opacity-60" />
